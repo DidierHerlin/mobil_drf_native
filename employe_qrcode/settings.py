@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-^zdfzg6%^_j^_t3&4xdsvg5hw@9r_%@1zv6sof=6w_l_27e!hs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.92']
+ALLOWED_HOSTS = [*]
 # settings.py
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React dev server
